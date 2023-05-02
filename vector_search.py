@@ -11,7 +11,7 @@ pinecone.init(api_key="ff0dd7c3-f502-4a2b-bfaa-c92a814cd0d2",
               environment="asia-southeast1-gcp")
 
 # Crear un índice en Pinecone llamado "demo-tei"
-index = pinecone.Index("demo-tei")
+index = pinecone.Index("<<index>>")
 
 
 def addData(corpusData, url):
